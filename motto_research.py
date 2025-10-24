@@ -6,7 +6,7 @@ def research_company_mission_and_recruiter_priorities(
     company_name="Anthropic", client=None
 ):
     """
-    Research a company's mission statement and what matters most to recruiters.
+    Research a company's mission statement and what matters most to recruiters using web search.
     """
     # Create client if not provided
     if client is None:
@@ -19,7 +19,9 @@ def research_company_mission_and_recruiter_priorities(
     Research the following company and provide insights on:
     1. Their mission statement and core values
     2. What recruiters at this company typically look for in candidates
-    4. Company culture and what makes a candidate a good fit
+    3. Company culture and what makes a candidate a good fit
+    4. Recent company news, developments, or strategic priorities
+    5. Specific job requirements or skills they value
     
     Company: {company_name}
     
@@ -27,6 +29,7 @@ def research_company_mission_and_recruiter_priorities(
     - What the company stands for
     - What recruiters prioritize when evaluating candidates
     - How to align their application with company values and needs
+    - Any recent company developments that might be relevant
     """
 
     try:
@@ -35,30 +38,24 @@ def research_company_mission_and_recruiter_priorities(
             messages=[
                 {
                     "role": "system",
-                    "content": "You are a career research expert who helps job candidates understand companies and what recruiters look for.",
+                    "content": "You are a career research expert who helps job candidates understand companies and what recruiters look for. Use web search to find the most current and accurate information about companies.",
                 },
                 {"role": "user", "content": prompt},
             ],
             max_tokens=1500,
             temperature=0.7,
+            tools=[
+                {
+                    "type": "web_search",
+                    "web_search": {
+                        "search_query": f"{company_name} mission statement values culture recruitment hiring"
+                    },
+                }
+            ],
+            tool_choice="auto",
         )
 
         return response.choices[0].message.content
 
     except Exception as e:
         return f"Error making API call: {str(e)}"
-
-
-def main():
-    """
-    Main function to run the research.
-    """
-    print(f"Researching {COMPANY_TO_RESEARCH}...")
-    print("=" * 50)
-
-    result = research_company_mission_and_recruiter_priorities()
-    print(result)
-
-
-if __name__ == "__main__":
-    main()

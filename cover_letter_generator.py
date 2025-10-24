@@ -35,6 +35,7 @@ def generate_cover_letter(company_name="Anthropic"):
     resume_content = read_file_content("resume_input.txt")
     writing_example = read_file_content("writing_example.txt")
     global_notes = read_file_content("global_notes.txt")
+    header_content = read_file_content("header.txt")
 
     # Get company research
     print(f"Researching {company_name}...")
@@ -58,6 +59,9 @@ def generate_cover_letter(company_name="Anthropic"):
     GLOBAL NOTES (additional instructions or corrections):
     {global_notes if global_notes else "No additional notes provided."}
 
+    HEADER CONTENT (to be placed before the cover letter):
+    {header_content if header_content else "No header content provided."}
+
     Based on the above information, write a two-paragraph cover letter that:
     1. Demonstrates why you would be a good fit for {company_name}
     2. Maintains the same tone and writing style as shown in your writing example
@@ -66,6 +70,8 @@ def generate_cover_letter(company_name="Anthropic"):
     5. Follows any specific instructions or corrections provided in the global notes
 
     Write the cover letter as if you are the person described in the resume_input, using the writing style from writing_example, and addressing the company's specific needs and values as identified in the research. Pay special attention to any additional instructions in the global notes.
+    
+    IMPORTANT: Always start the cover letter with the header content (if provided), followed by the two-paragraph cover letter body. If the header content contains outdated information (such as the date), you may replace that ONLY.
     """
 
     try:

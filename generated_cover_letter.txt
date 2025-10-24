@@ -1,0 +1,8 @@
+Dear Hiring Manager at Anthropic,
+
+As a Computer Science and Chemistry student at the University of Michigan, my technical expertise aligns with Anthropic's mission of making artificial intelligence systems more understandable, robust, and steerable. My experiences at Cove.ai and the University of Michigan's Department of Medicine Lab have equipped me with an in-depth understanding of machine learning and full-stack development. Notably, I developed an end-to-end feature at Cove.ai that surfaces context-aware suggestions from user text and images, which became a core part of customer workflows within six weeks. This project, alongside my work on an automated customer churn workflow at Adeptia, decreased manual review by ten hours per week, showcasing my ability to create efficient and impactful AI solutions.
+
+Anthropic's focus on cooperation resonates with me. I have worked in cross-functional teams throughout my academic and professional journey, and I am eager to bring this collaborative spirit to Anthropic. I am particularly drawn to your commitment to ensuring artificial general intelligence benefits all of humanity. Given my solid grasp of Python, TypeScript/JavaScript, and other languages, as well as my passion for AI and its potential societal impact, I am excited about the prospect of contributing to your mission. I am confident that my technical skills, coupled with my dedication to problem-solving and continuous learning, align with Anthropic's values. I would love to discuss how I can contribute to your mission, and I am happy to share more about my projects and experiences.
+
+Best regards,
+Justin Chu

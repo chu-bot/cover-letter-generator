@@ -1,0 +1,12 @@
+# Global Notes for Cover Letter Generation
+# Use this file to specify additional instructions, corrections, or requirements
+
+
+# Current notes:
+Open with a hooked value prop (what you do + how it helps them), not “I’m excited…”.
+
+Add 1–2 quantified wins (time saved, latency ↓, coverage ↑, users impacted).
+
+Show why this company (products, teams, problems) in 1 sentence with specifics.
+
+Close with a crisp ask (“happy to share X / chat about Y”), not a generic thank-you.

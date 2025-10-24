@@ -1,0 +1,49 @@
+Justin Chu
+650-305-6111 | jmchu@umich.edu | linkedin.com/in/justinmchu | github.com/chu-bot
+Education
+University of Michigan Ann Arbor, MI
+B.S.E. in Computer Science and Chemistry (GPA: 3.6/4.0) August 2022 – May 2026
+Relevant Coursework: Data Science & Algorithms, Game Design, Web Systems
+Work Experience
+Full Stack + UI Design Intern Summer 2025
+Adeptia Remote
+• Deployed an automated customer churn workflow (Python, OpenAI function-calling, MySQL) with explainable risk
+write-ups, a dedicated front-end, and audit logs, reducing manual review by ten hours per week.
+• Launched an internal portal reaching 300 workers with a spreadsheet-driven CMS and lightweight automation,
+enabling non-technical staff to update content directly and lowering median time to find documentation for
+customer-facing teams.
+• Designed modular case-study tiles, filters, and search for self-serve composition by editors, improving customer
+website retention rate by 24%.
+Machine Learning + Full Stack Intern Summer 2024
+Cove, Inc. (Cove.ai) Menlo Park, CA
+• Developed an end-to-end feature (React, Python) that surfaces context-aware suggestions from user text and
+images, becoming a core part of customer workflows within six weeks.
+• Built a commit-time testing framework (Playwright, LangSmith) that gates front-end changes and prompt updates
+in production, processing ˜30 commits/day to uphold release reliability and scalability.
+• Improved response quality and consistency in GPT-4 and Claude 3 Sonnet by applying CoT (pre-native reasoning)
+and optimizing RAG, cutting JSON schema/parsing errors by ˜90%.
+Machine Learning Research Assistant Summer 2023
+University of Michigan, Department of Medicine (Dr. Shaomeng Wang’s Lab) Ann Arbor, MI
+• Trained and evaluated XGBoost models to predict oral potency of small-molecule degraders, achieving a net 82%
+accuracy on held-out sets.
+• Performed model tuning, k-fold cross-validation, and SHAP-based interpretability analysis to evaluate robustness
+and extract chemically meaningful structure–activity trends.
+Project Experience
+DnD Text Adventure | Python, OpenAI API
+• Built a Python adventure engine on the OpenAI API with a mixture-of-experts design that routes player intents to
+specialized agents (conversation, combat, environment) with tailored prompts and tool calls.
+• Added a rules core with feasibility gating to validate intents before generation, keeping narrative coherent and
+preventing invalid branches.
+• Fine-tuned a DeepSeek-derived rules model to enforce world logic, maintaining consistent, canon-aligned
+playthroughs.
+Full-Stack Media Feed | React, TypeScript, Python, AWS
+• Built an authenticated React/TypeScript single-page app with a Python REST API exposing feed, likes, and
+comments, using cursor-based pagination and optimistic updates to keep interactions responsive.
+• Structured the API with clear request/response schemas and input validation, added JWT authentication with
+refresh rotation, and wrote unit and request tests to guard critical paths.
+Skills
+Languages: Python, TypeScript/JavaScript, SQL, C/C++, Bash, Java
+Frontend: React, Next.js, Tailwind CSS
+Data/ML & AI: PyTorch, scikit-learn, LangSmith, Pinecone, Hugging Face, OpenAI/Anthropic APIs
+Cloud/DevOps & Testing: AWS, Docker, Linux, GitHub Actions, Playwright, Pytest, Flask
+UI/UX Design & Tools: Figma, Git, JIRA
